@@ -1,14 +1,14 @@
 # PSY_FXs
-PsyFXs is an interactive page, part of the Side Effects Album . 
+**PsyFXs is an interactive page, part of the Side Effects Album . 
 Press Play, loop, move the slidebars and knobs to make your own soundscape. 
 The use of headphones is highly recommended
-Have fun!
+Have fun!**
 
 #Artistic  conception
-  -Andre Perim
+ + -Andre Perim
 
 #Programming
-  -João Puff Perim
+ + -João Puff Perim
 
 #Side Effects Album- 
 https://andreperim.bandcamp.com/album/side-effects
