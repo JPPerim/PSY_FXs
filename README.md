@@ -11,10 +11,10 @@ Have fun!**
  + João Puff Perim
 
 **Side Effects Album**
-+https://andreperim.bandcamp.com/album/side-effects
-+https://tratore.com.br/um_artista.php?id=7966
++ https://andreperim.bandcamp.com/album/side-effects
++ https://tratore.com.br/um_artista.php?id=7966
 
 **Contacts**
-+www.andreperim.com
-+andreperim@globo.com
-+j.perim.perim@hotmail.com
++ www.andreperim.com
++ andreperim@globo.com
++ j.perim.perim@hotmail.com
