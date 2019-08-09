@@ -535,7 +535,7 @@ function draw() {
   textSize(50);
   fill(0);
   strokeWeight(6);
-  text('Side FXs',75 , 80);
+  text('Psy FXs',75 , 80);
   textSize(15);
   fill(50);
   text('v. beta0.1.0.1',85 , 100);
