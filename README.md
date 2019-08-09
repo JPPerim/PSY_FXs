@@ -1,8 +1,8 @@
 # PSY_FXs
-**PsyFXs is an interactive page, part of the Side Effects Album . 
-Press Play, loop, move the slidebars and knobs to make your own soundscape. 
-The use of headphones is highly recommended
-Have fun!**
+**PsyFXs is an interactive page, part of the Side Effects Album**
+- Press Play, loop, move the slidebars and knobs to make your own soundscape. 
+- The use of headphones is highly recommended
+- Have fun!
 
 **Artistic  conception**
  + Andre Perim
