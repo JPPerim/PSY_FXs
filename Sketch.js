@@ -517,7 +517,6 @@ function DelS4(){
 
 
 function setup() {
-  translate(ScWidth/2-600, 0);
   createCanvas(1200, 400);
   SlidCreate();
   ButtCreate();
@@ -539,7 +538,7 @@ function draw() {
   text('Psy FXs',75 , 80);
   textSize(15);
   fill(50);
-  text('v. beta0.1.2.1',85 , 110);
+  text('v. beta0.1.2.1',85 , 130);
 
   pop();
   
