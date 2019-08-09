@@ -173,7 +173,6 @@ function SlidCreate(){
   SlidVolS1.position(pos1x,pos1y);
   SlidVolS1.style('rotate', 90);
   SlidVolS1.style('width', '150px');
-  SlidVolS1.style('height','550px');
   SlidVolS1.changed(chVol1);
 
   //reverb
