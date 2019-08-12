@@ -538,7 +538,7 @@ function draw() {
   text('Psy FXs',75 , 80);
   textSize(15);
   fill(50);
-  text('v. beta0.1.2.1',85 , 130);
+  text('v. 1.0.0.1',85 , 130);
 
   pop();
   
