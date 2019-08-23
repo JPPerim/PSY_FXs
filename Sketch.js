@@ -80,7 +80,7 @@ amp1 = new p5.Amplitude();
 
 {//Var
     //pos
-    var pos1x = 20, pos1y = 150;
+    var pos1x = 20, pos1y = 250;
     var pos2x = pos1x + 250,pos2y = 250;
     var pos3x = pos2x + 250,pos3y = 250;
     var pos4x = pos3x + 250,pos4y = 250;
