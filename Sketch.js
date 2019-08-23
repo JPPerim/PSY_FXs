@@ -97,7 +97,7 @@ function preload(){
     Sound1 = loadSound('src/faixa1.wav');
     Sound2 = loadSound('src/faixa2.wav');
     Sound3 = loadSound('src/faixa3.wav');
-    Sound4 = loadSound('src/faixa4.wav');
+    Sound4 = loadSound('src/faixa4.mp3');
 
     //img
     img1 = loadImage('src/Amp_Texture.png');
@@ -646,6 +646,61 @@ function draw() {
   text('OUT', 0, 0);
   image(img6, 0, 0, 25, 25);
   pop();
+      
+    //button feed back
+
+  if (Sound1.isPlaying()){
+      BttLpS1.style('background-color','#F0E68C');
+      BttLpS1.style('border','1px solid #C0C0C0');
+      BttPlS1.style('background-color','#F0E68C');
+      BttPlS1.style('border','1px solid #C0C0C0');
+  }
+  else{
+      BttLpS1.style('background-color', '#F5F5F5');
+      BttLpS1.style('border','2px solid #2F4F4F');
+      BttPlS1.style('background-color', '#F5F5F5');
+      BttPlS1.style('border','2px solid #2F4F4F');
+      
+  }
+  if (Sound2.isPlaying()){
+    BttLpS2.style('background-color','#F0E68C');
+    BttLpS2.style('border','1px solid #C0C0C0');
+    BttPlS2.style('background-color','#F0E68C');
+    BttPlS2.style('border','1px solid #C0C0C0');
+  }
+  else{
+    BttLpS2.style('background-color', '#F5F5F5');
+    BttLpS2.style('border','2px solid #2F4F4F');
+    BttPlS2.style('background-color', '#F5F5F5');
+    BttPlS2.style('border','2px solid #2F4F4F');
+    
+  }
+  if (Sound3.isPlaying()){
+    BttLpS3.style('background-color','#F0E68C');
+    BttLpS3.style('border','1px solid #C0C0C0');
+    BttPlS3.style('background-color','#F0E68C');
+    BttPlS3.style('border','1px solid #C0C0C0');
+  }
+  else{
+    BttLpS3.style('background-color', '#F5F5F5');
+    BttLpS3.style('border','2px solid #2F4F4F');
+    BttPlS3.style('background-color', '#F5F5F5');
+    BttPlS3.style('border','2px solid #2F4F4F');
+    
+  }
+  if (Sound4.isPlaying()){
+    BttLpS4.style('background-color','#F0E68C');
+    BttLpS4.style('border','1px solid #C0C0C0');
+    BttPlS4.style('background-color','#F0E68C');
+    BttPlS4.style('border','1px solid #C0C0C0');
+  }
+  else{
+    BttLpS4.style('background-color', '#F5F5F5');
+    BttLpS4.style('border','2px solid #2F4F4F');
+    BttPlS4.style('background-color', '#F5F5F5');
+    BttPlS4.style('border','2px solid #2F4F4F');
+    
+  }
   }
   
 
