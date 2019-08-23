@@ -79,7 +79,7 @@ amp1 = new p5.Amplitude();
 
 {//Var
     //pos
-    var pos1x = screen.width/2-610, pos1y = 250;
+    var pos1x = 20, pos1y = 250;
     var pos2x = pos1x + 250,pos2y = 250;
     var pos3x = pos2x + 250,pos3y = 250;
     var pos4x = pos3x + 250,pos4y = 250;
@@ -540,7 +540,7 @@ function draw() {
   text('Psy FXs',75 , 80);
   textSize(15);
   fill(50);
-  text('v. beta0.1.2.1',85 , 110);
+  text('v.1.2.0.3',85 , 110);
 
   pop();
   
