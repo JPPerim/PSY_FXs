@@ -17,7 +17,6 @@ var SlidVolS4;
 var SlidRevS4;
 var SlidDelS4;
 
-
 //button
 var BttPlS1;
 var BttLpS1;
@@ -80,7 +79,7 @@ amp1 = new p5.Amplitude();
 
 {//Var
     //pos
-    var pos1x = 20, pos1y = 250;
+    var pos1x = screen.width/2-610, pos1y = 250;
     var pos2x = pos1x + 250,pos2y = 250;
     var pos3x = pos2x + 250,pos3y = 250;
     var pos4x = pos3x + 250,pos4y = 250;
@@ -173,7 +172,6 @@ function SlidCreate(){
   SlidVolS1.position(pos1x,pos1y);
   SlidVolS1.style('rotate', 90);
   SlidVolS1.style('width', '150px');
-  SlidVolS1.style('height','550px');
   SlidVolS1.changed(chVol1);
 
   //reverb
@@ -518,11 +516,14 @@ function DelS4(){
 
 
 function setup() {
+  translate(screen.width/2-600, 0);
   createCanvas(1200, 400);
   SlidCreate();
   ButtCreate();
   CckCreate();
   angleMode(DEGREES);
+  CavCc = position(x, y);
+  console.log('setup done')
 }
 
 function draw() {
@@ -536,10 +537,10 @@ function draw() {
   textSize(50);
   fill(0);
   strokeWeight(6);
-  text('Side FXs',75 , 80);
+  text('Psy FXs',75 , 80);
   textSize(15);
   fill(50);
-  text('v. 1.2.0.1',85 , 100);
+  text('v. beta0.1.2.1',85 , 110);
 
   pop();
   
@@ -646,8 +647,9 @@ function draw() {
   text('OUT', 0, 0);
   image(img6, 0, 0, 25, 25);
   pop();
-      
-    //button feed back
+
+
+  //button feed back
 
   if (Sound1.isPlaying()){
       BttLpS1.style('background-color','#F0E68C');
@@ -701,9 +703,8 @@ function draw() {
     BttPlS4.style('border','2px solid #2F4F4F');
     
   }
-  }
+}
   
-
 
 }
 
