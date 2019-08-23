@@ -522,6 +522,7 @@ function setup() {
   ButtCreate();
   CckCreate();
   angleMode(DEGREES);
+  console.log('V.1.2.0.4');
 }
 
 function draw() {
@@ -538,7 +539,7 @@ function draw() {
   text('Psy FXs',75 , 80);
   textSize(15);
   fill(50);
-  text('v. 1.0.0.1',85 , 130);
+  text('v. 1.2.0.4',85 , 130);
 
   pop();
   
